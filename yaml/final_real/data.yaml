@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['human', 'robot']
+
+roboflow:
+  workspace: adnan-khan-6wqxj
+  project: human-robot-raw-real
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adnan-khan-6wqxj/human-robot-raw-real/dataset/1
