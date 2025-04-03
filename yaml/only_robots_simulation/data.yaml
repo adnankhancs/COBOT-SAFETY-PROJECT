@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['robot']
+
+roboflow:
+  workspace: adnan-khan-6wqxj
+  project: simulation-2-cobot
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adnan-khan-6wqxj/simulation-2-cobot/dataset/7
